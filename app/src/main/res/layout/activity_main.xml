@@ -4,11 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lenovo.myapplication.MainActivity">
+    tools:context="com.example.lenovo.myapplication.MainActivity"
+    android:background="@drawable/trinajor">
 
+   <Button
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:id="@+id/buttontxa"
+       android:background="@drawable/male"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentStart="true"
+       android:layout_marginStart="53dp" />
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/buttonaxjik"
+        android:background="@drawable/female"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="75dp" />
+
+
+
+
 
 
 
