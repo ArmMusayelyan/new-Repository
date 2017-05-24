@@ -7,35 +7,46 @@
     tools:context="com.example.lenovo.myapplication.Main3Activity"
     android:background="@drawable/nkar2">
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/imagedzerq"
+
+    <TextView
+        android:id="@+id/textbiceps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:text="4"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:scrollbars="vertical"
+        android:visibility="visible" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textvotq"
+        android:textColor="#000000"
         android:visibility="invisible"/>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/imagevotq"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textmejq"
+        android:textColor="#000000"
         android:visibility="invisible"/>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/imageviz"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textus"
+        android:textColor="#000000"
         android:visibility="invisible"/>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/imagemejq"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviz"
+        android:textColor="#000000"
         android:visibility="invisible"/>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/imagekrcqavandak"
-        android:visibility="invisible"/>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/imageus"
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textkrcqavandak"
+        android:textColor="#000000"
         android:visibility="invisible"/>
 
 
