@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        >
+
+        <item
+            android:title="Վոտք"
+            android:id="@+id/votq"/>
+        <item
+            android:title="Ձեռք"
+            android:id="@+id/dzerq"/>
+        <item
+            android:title="ՈԻս"
+            android:id="@+id/us"/>
+        <item
+            android:title="Պարանօց"
+            android:id="@+id/viz"/>
+
+        <item
+            android:title="Մեջք"
+            android:id="@+id/mejq"/>
+        <item
+            android:title="Կրծքավանդակ"
+            android:id="@+id/krcqavandak"/>
+
+
+
+
+
+
+
+    </group>
+
+</menu>
